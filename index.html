@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>108 課綱科技領域互動教材</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">Technology Domain</p>
+        <h1>108 課綱科技領域互動教材</h1>
+        <p class="lead">
+          以問題解決、運算思維、設計製作與科技素養為核心，建立可公開上線的互動式學習資源。
+        </p>
+      </div>
+      <nav class="site-nav" aria-label="主要導覽">
+        <a href="#modules">教材模組</a>
+        <a href="#activity">互動任務</a>
+        <a href="#assessment">學習檢核</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="intro-title">
+        <div>
+          <h2 id="intro-title">學習入口</h2>
+          <p>
+            本教材將逐步整合資訊科技與生活科技課程，協助學生從生活情境出發，理解科技系統、資料處理、演算法、設計思考與倫理議題。
+          </p>
+        </div>
+        <div class="status-panel" aria-label="教材狀態">
+          <span>目前版本</span>
+          <strong>初始建置</strong>
+        </div>
+      </section>
+
+      <section id="modules" class="section-block" aria-labelledby="modules-title">
+        <h2 id="modules-title">教材模組</h2>
+        <div class="module-grid">
+          <article class="module-card">
+            <h3>資訊科技</h3>
+            <p>涵蓋資料表示、演算法、程式設計、網路與資訊安全等主題。</p>
+          </article>
+          <article class="module-card">
+            <h3>生活科技</h3>
+            <p>涵蓋設計思考、材料與結構、能源動力、科技系統與實作任務。</p>
+          </article>
+          <article class="module-card">
+            <h3>科技素養與倫理</h3>
+            <p>討論科技對個人、社會與環境的影響，培養負責任的科技使用態度。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="activity" class="section-block activity-layout" aria-labelledby="activity-title">
+        <div>
+          <h2 id="activity-title">互動任務</h2>
+          <p>
+            選擇一個課程情境，系統會提供對應的探究問題。後續可擴充為測驗、模擬操作或作品上傳任務。
+          </p>
+        </div>
+        <div class="activity-panel">
+          <label for="scenario">課程情境</label>
+          <select id="scenario">
+            <option value="data">校園節能資料分析</option>
+            <option value="design">智慧收納裝置設計</option>
+            <option value="ethics">生成式 AI 使用倫理</option>
+          </select>
+          <button id="task-button" type="button">產生任務</button>
+          <p id="task-output" class="task-output" aria-live="polite">
+            請選擇情境後產生任務。
+          </p>
+        </div>
+      </section>
+
+      <section id="assessment" class="section-block" aria-labelledby="assessment-title">
+        <h2 id="assessment-title">學習檢核</h2>
+        <ol class="checklist">
+          <li>我能說明科技問題的背景與限制。</li>
+          <li>我能運用資料、流程或模型提出解決策略。</li>
+          <li>我能評估作品或方案對使用者與社會的影響。</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>TD 互動教材專案，適用於 108 課綱科技領域教學資源建置。</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
