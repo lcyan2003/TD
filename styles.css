@@ -44,7 +44,7 @@ a {
 
 .image-hero,
 .lesson-hero {
-  min-height: 420px;
+  min-height: 360px;
   color: #fff;
   background-position: center;
   background-size: cover;
@@ -618,3 +618,4 @@ button:hover {
     grid-template-columns: 1fr;
   }
 }
+
